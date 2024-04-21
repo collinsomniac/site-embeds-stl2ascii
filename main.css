@@ -19,7 +19,7 @@ body
     background-color: black;
     text-align: center;
     font-family: 'Hack';
-    font-size: 1em
+    font-size: 12px
 }
 
 .webgl
@@ -33,7 +33,7 @@ body
 form {
     
     font-family: inherit;
-    font-size: 1em;
+    font-size: 12px;
     /* position: absolute; */
     display: block;
     color: whitesmoke;
