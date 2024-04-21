@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Hack';
+    src: url(./fonts/Hack-NF.ttf);
+    display: swap;
+}
+
+*
+{
+    margin: 0;
+    padding: 1;
+}
+html, 
+
+body
+
+
+{
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+    font-family: 'Hack';
+    font-size: 1em
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+form {
+    
+    font-family: inherit;
+    font-size: 1em;
+    /* position: absolute; */
+    display: block;
+    color: whitesmoke;
+    /* z-index: 99; */
+    left: 0%;
+    top: 0%;
+    }
+
+#cite {
+    text-align: left;  
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    border: 2px solid #4E4E4E;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1em;
+    color: whitesmoke;
+    padding: 2px 5px;
+    margin: 2px 2px;
+}
+
+input[type="button"] {
+    background-color: black;
+    border: 2px solid #4E4E4E;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1em;
+    color: whitesmoke;
+    padding: 2px 5px;
+    text-align: center;
+    margin: 4px 2px;
+}
