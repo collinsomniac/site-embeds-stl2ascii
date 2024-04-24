@@ -35,7 +35,7 @@
     <script>
         window.addEventListener('message', function(event) {
             // domain of iframed application
-            if (event.origin !== 'https://site-collinsomniac-terminal.com') {
+            if (event.origin !== 'https://site-collinsomniac-liveterm.com') {
                 return; // always verify the origin for security
             }
             if (event.data && event.data.type === 'changeTheme') {
