@@ -32,20 +32,5 @@
             <p>Powered by <a href="https://linktr.ee/andrewsink">Andrew Sink</a>'s <a href="https://github.com/AndrewSink/STL-to-ASCII-Generator">STL to ASCII Generator</a>.</p>
         </div>
     </form>
-    <script>
-        window.addEventListener('message', function(event) {
-            // domain of iframed application
-            if (event.origin !== 'https://site-collinsomniac-liveterm.com') {
-                return; // always verify the origin for security
-            }
-            if (event.data && event.data.type === 'changeTheme') {
-                const theme = event.data.theme;
-                const root = document.documentElement;
-                Object.entries(theme).forEach(([key, value]) => {
-                    root.style.setProperty('--' + key, value);
-                });
-            }
-        });
-    </script>
 </body>
 </html>
